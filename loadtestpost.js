@@ -4,7 +4,7 @@ import {sleep } from 'k6';
 
 
 //grab from cli or use default values
-let address = __ENV.ADDRESS || 'http://192.168.51.110:14141';
+let address = __ENV.ADDRESS || 'http://localhost:8080';
 let virtualUsers = Number(__ENV.VUS) || 10;
 let duration = __ENV.DURATION || '30s';
 
